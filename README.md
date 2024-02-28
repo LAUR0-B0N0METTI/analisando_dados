@@ -29,7 +29,7 @@ O objetivo deste projeto é realizar uma análise exploratória de dados na tabe
    ```bash
    pip install pandas matplotlib seaborn plotly
    ```
-3. Execute o script `analise_roupas.py` para realizar a análise de dados.
+3. Execute o script `analise.py` para realizar a análise de dados.
 4. Os gráficos e estatísticas serão exibidos na saída padrão ou salvos em arquivos, conforme especificado no código.
 
 ## Bibliotecas Utilizadas
@@ -50,7 +50,7 @@ import seaborn as sns
 
 ### Carregando o DataFrame
 ```python
-df = pd.read_excel('C:\\caminho_do_arquivo\\tabela_roupas.xlsx')
+df = pd.read_excel('C:\\caminho_do_arquivo\\base.xlsx')
 ```
 
 ### Distribuição de Itens por Loja
